@@ -19,7 +19,6 @@ do
         cat2 = double.Parse(Console.ReadLine());
     }
     // com biblioteca math
-    hip = (cat1 * cat1) + (cat2 * cat2);
     hip = Math.Pow(cat1, 2) + Math.Pow(cat2, 2);
     hip = Math.Sqrt(hip);
 
