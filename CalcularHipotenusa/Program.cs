@@ -23,7 +23,7 @@ do
     hip = Math.Sqrt(hip);
 
     Console.WriteLine($"\nA hipotenusa é:\n{hip}\n");
-    Console.WriteLine("Deseja continuar?\nDigite 0, se não, digite outro número:");
+    Console.WriteLine("Digite 0 para continuar, se não, digite outro número:");
     res = int.Parse(Console.ReadLine());
 
 } while (res == 0);
